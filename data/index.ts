@@ -1,14 +1,17 @@
+import { link } from "fs";
+
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "About Me", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experiences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "My highest priority is joining a company that adopts modern tools and maintains flexibility in continuous improvement.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +21,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Open to relocating anywhere in Germany.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -49,7 +52,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning backend to become a full-stack",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -59,7 +62,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Would you like me to join your team?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,130 +75,131 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Innovative Electronics E-Commerce Website",
+    des: "A modern and innovative electronics website designed to deliver a seamless, fast, and user-friendly experience.",
+    img: "/project1.png",
+    iconLists: [
+      "/next-js.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/shad.png",
+      "/sanity.png",
+    ],
+    link: "https://e-store-wliz.vercel.app/",
+    name: "E_STORE",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Shop with Ease at Tomato Store",
+    des: "Experience a smooth user journey and high-performance speed powered by clean, well-structured code.",
+    img: "/project2.png",
+    iconLists: [
+      "/react.jpg",
+      "/tail.svg",
+      "/javascript.png",
+      "/html5.png",
+      "/css3.png",
+    ],
+    link: "https://tomatoes-store-p7d3.vercel.app/",
+    name: "TOMATO_STORE",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Easy & Flexible Hotel Booking",
+    des: "Enjoy a seamless hotel booking experience built with a simple architecture and clean, high-performance code.",
+    img: "/project3.png",
+    iconLists: [
+      "/react.jpg",
+      "/tail.svg",
+      "/javascript.png",
+      "/html5.png",
+      "/css3.png",
+    ],
+    link: "majestic-hotel-six.vercel.app",
+    name: "MAJESTIC_HOTEL",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I graduated in 2018 from Shatt Al-Arab University after completing four years of academic study, earning a research-based Bachelor’s degree in Computer Science. Shatt Al-Arab University is considered one of the leading universities in my home country, and my degree is officially recognized as equivalent to a German Bachelor’s degree by the German Central Office for Foreign Education (ZAB).",
+    name: "Shatt Al-Arab University",
+    title: "2018 Graduate",
+    image: "/university.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I completed an intensive training program in HTML, CSS, JavaScript, and React with the objective of securing a position in my field within my home country.",
+    name: "Self-Taught",
+    title: "Self-taught through independent learning and practical projects.",
+    image: "/practise2.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Three years of collaborative experience working with a backend developer, dedicating up to 58 hours per week to building frontend interfaces from scratch using JavaScript, HTML5, CSS3, React, and Tailwind CSS.",
+    name: "IRAQ Site Company",
+    title: "2020-2023",
+    image: "/work.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Self-directed professional training in preparation for employment in Germany, with hands-on experience in JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, React, Next.js, TypeScript, headless CMS solutions such as Sanity, state management with Zustand, API integration, Framer Motion, UI/UX collaboration using Figma, and version control with Git and GitHub.",
+    name: "Self-Taught",
+    title: "2023-Present",
+    image: "/practise.jpg",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Next.js",
+    img: "/next.png",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "TypeScript",
+    img: "/type.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "React",
+    img: "/react-icon.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Tailwind CSS",
+    img: "/tailwend.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Ability to Work Under Pressure",
+    desc: "I can work for long hours at the computer without fatigue or loss of focus, maintaining calmness and concentration under pressure.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Time Management",
+    desc: "I manage my time by setting clear schedules for each task and working extra hours when necessary to meet deadlines.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Working with AI Tools",
+    desc: "Strong expertise in using AI tools for clean code and efficient debugging.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Fast Learning & Adaptability",
+    desc: "Fast learner with strong self-learning skills and quick adaptation to new tools and workflows.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -205,13 +209,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/codex404556",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wa.png",
+    link: "https://wa.me/+4915214760899",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/error-best-381303331",
   },
 ];
