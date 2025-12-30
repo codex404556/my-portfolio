@@ -5,6 +5,12 @@ import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
+  const handleShowWork = () => {
+    const el = document.getElementById("approach");
+    if (!el) return;
+    const y = el.getBoundingClientRect().top + window.scrollY - 80;
+    window.scrollTo({ top: y, behavior: "smooth" });
+  };
   return (
     <div className="pb-20 pt-36">
       <div>
@@ -41,13 +47,12 @@ const Hero = () => {
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
             Hi! I&apos;m Ali, Frontwnd Developer based in Berlin.
           </p>
-          <a href="#projects">
-            <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <MagicButton
+            title="Show my work"
+            icon={<FaLocationArrow />}
+            position="right"
+            handleClick={handleShowWork}
+          />
         </div>
       </div>
     </div>

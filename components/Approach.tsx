@@ -5,7 +5,7 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
+    <section id="approach" className="w-full py-20 scroll-mt-32">
       <h1 className="heading">
         My <span className="text-purple">approach</span>
       </h1>
@@ -89,11 +89,11 @@ const Card = ({
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             className="h-full w-full absolute inset-0"
-          >
-            {children}
-          </motion.div>
-        )}
-      </AnimatePresence>
+        >
+          {children}
+        </motion.div>
+      )}
+    </AnimatePresence>
 
       <div className="relative z-20 px-10">
         <div
