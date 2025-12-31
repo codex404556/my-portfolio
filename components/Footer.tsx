@@ -25,7 +25,7 @@ const Footer = () => {
           I am confident that an interview would allow me to demonstrate the
           value I can bring to your team.
         </p>
-        <a href="mailto:joker1992992992@gmail.com">
+        <a href="mailto:codex4045@gmail.com">
           <MagicButton
             title="Let's get in touch"
             icon={<FaLocationArrow />}
