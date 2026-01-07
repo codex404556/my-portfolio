@@ -155,7 +155,7 @@ export const companies = [
   {
     id: 1,
     name: "Next.js",
-    img: "/next.png",
+    img: "/next.jpeg",
   },
   {
     id: 2,
