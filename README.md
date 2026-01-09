@@ -1,51 +1,23 @@
 <div align="center">
-  <br />
-    <a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank">
-      <img src="https://github.com/adrianhajdin/portfolio/assets/151519281/c6ca3c03-6cb7-4f67-a9b9-a73da5bfa0d8" alt="Project Banner">
-    </a>
-  <br />
-
   <div>
     <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
     <img src="https://img.shields.io/badge/-Framer-black?style=for-the-badge&logoColor=white&logo=framer&color=0055FF" alt="framer" />
     <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
     <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
   </div>
+  <h3 align="center">My Next.js Portfolio</h3>
 
-  <h3 align="center">A Modern Next.js Portfolio</h3>
-
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+   <p align="center">
+     Interactive 3D portfolio built with Next.js, Three.js, Framer Motion, and Tailwind CSS.
+    </p>
 </div>
-
-## 📋 <a name="table">Table of Contents</a>
-
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Code to Copy](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
-
-## 🚨 Tutorial
-
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
-
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
-
-<a href="https://youtu.be/FTH6Dn3AyIQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Built with Next.js for handling the user interface, Three.js for rendering 3D elements, Framer motion for beautiful animations, and styled with TailwindCSS, this portfolio demonstrates the developer's skills in a unique manner that creates a lasting impact.
+Built with Next.js for the user interface, Three.js for real-time 3D rendering, Framer Motion for smooth animations, and Tailwind CSS for a scalable design system, this portfolio demonstrates modern frontend engineering, interactive UI design, and performance-aware architecture.
+The project was developed to showcase advanced UI composition, animation workflows, and 3D integration commonly used in contemporary web applications and product-driven companies.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
-
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
-
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## <p>⚙️ Engineering Stack</p>
 
 - Next.js
 - Three.js
@@ -58,7 +30,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Bento Grid**: Modern layout presenting personal information using cutting-edge CSS design techniques.
 
-👉 **3D Elements**:  Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
+👉 **3D Elements**: Interactive 3D design elements, such as a GitHub-style globe and card hover effects, adding depth and engagement.
 
 👉 **Testimonials**: Dynamic testimonials area with scrolling or animated content for enhanced engagement.
 
@@ -68,26 +40,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 👉 **Responsiveness**: Seamless adaptability across all devices, ensuring optimal viewing experience for every user.
 
-and many more, including code architecture and reusability 
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
-
-Make sure you have the following installed on your machine:
-
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
-
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/portfolio.git
-cd portfolio
-```
+and many more, including code architecture and reusability
 
 **Installation**
 
@@ -105,23 +58,24 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## <h1>🕸️ Snippets</h1>
 
 <details>
 <summary><code>data/index.ts</code></summary>
 
 ```typescript
 export const navItems = [
-  { name: "About", link: "#about" },
+  { name: "About Me", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  { name: "Experiences", link: "#experiences" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "My highest priority is joining a company that adopts modern tools and maintains flexibility in continuous improvement.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -131,7 +85,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "Open to relocating anywhere in Germany.",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -162,7 +116,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently learning backend to become a full-stack",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -172,7 +126,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "Would you like me to join your team?",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -185,130 +139,131 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Innovative Electronics E-Commerce Website",
+    des: "A modern and innovative electronics website designed to deliver a seamless, fast, and user-friendly experience.",
+    img: "/project1.png",
+    iconLists: [
+      "/next-js.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/shad.png",
+      "/sanity.png",
+    ],
+    link: "https://e-store-wliz.vercel.app/",
+    name: "E_STORE",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "Shop with Ease at Tomato Store",
+    des: "Experience a smooth user journey and high-performance speed powered by clean, well-structured code.",
+    img: "/project2.png",
+    iconLists: [
+      "/react.jpg",
+      "/tail.svg",
+      "/javascript.png",
+      "/html5.png",
+      "/css3.png",
+    ],
+    link: "https://tomatoes-store-p7d3.vercel.app/",
+    name: "TOMATO_STORE",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
-  },
-  {
-    id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Easy & Flexible Hotel Booking",
+    des: "Enjoy a seamless hotel booking experience built with a simple architecture and clean, high-performance code.",
+    img: "/project3.png",
+    iconLists: [
+      "/react.jpg",
+      "/tail.svg",
+      "/javascript.png",
+      "/html5.png",
+      "/css3.png",
+    ],
+    link: "majestic-hotel-six.vercel.app",
+    name: "MAJESTIC_HOTEL",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I graduated in 2018 from Shatt Al-Arab University after completing four years of academic study, earning a research-based Bachelor’s degree in Computer Science. Shatt Al-Arab University is considered one of the leading universities in my home country, and my degree is officially recognized as equivalent to a German Bachelor’s degree by the German Central Office for Foreign Education (ZAB).",
+    name: "Shatt Al-Arab University",
+    title: "2018 Graduate",
+    image: "/university.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "I completed an intensive training program in HTML, CSS, JavaScript, and React with the objective of securing a position in my field within my home country.",
+    name: "Self-Taught",
+    title: "Self-taught through independent learning and practical projects.",
+    image: "/practise2.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Three years of collaborative experience working with a backend developer, dedicating up to 58 hours per week to building frontend interfaces from scratch using JavaScript, HTML5, CSS3, React, and Tailwind CSS.",
+    name: "IRAQ Site Company",
+    title: "2020-2023",
+    image: "/work.jpg",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Self-directed professional training in preparation for employment in Germany, with hands-on experience in JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, React, Next.js, TypeScript, headless CMS solutions such as Sanity, state management with Zustand, API integration, Framer Motion, UI/UX collaboration using Figma, and version control with Git and GitHub.",
+    name: "Self-Taught",
+    title: "2023-Present",
+    image: "/practise.jpg",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Next.js",
+    img: "/next.jpeg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "TypeScript",
+    img: "/type.png",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "React",
+    img: "/react-icon.png",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Tailwind CSS",
+    img: "/tailwend.png",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Ability to Work Under Pressure",
+    desc: "I can work for long hours at the computer without fatigue or loss of focus, maintaining calmness and concentration under pressure.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Time Management",
+    desc: "I manage my time by setting clear schedules for each task and working extra hours when necessary to meet deadlines.",
+    className: "md:col-span-2",
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Working with AI Tools",
+    desc: "Strong expertise in using AI tools for clean code and efficient debugging.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Fast Learning & Adaptability",
+    desc: "Fast learner with strong self-learning skills and quick adaptation to new tools and workflows.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
@@ -318,14 +273,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/codex404556",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/wa.png",
+    link: "https://wa.me/+4915214760899",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/error-best-381303331",
   },
 ];
 ```
@@ -641,31 +599,27 @@ export default config;
 
 </details>
 
-
 <details>
 <summary><code>Linear Gradient</code></summary>
 
 ```js
 style={{
-        //   add these two
-        //   you can generate the color from here https://cssgradient.io/
         background: "rgb(4,7,29)",
         backgroundColor:
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
 ```
+
 </details>
 
+**About This Project**
 
-## <a name="links">🔗 Assets</a>
-
-Assets used in the project can be found [here](https://drive.google.com/file/d/1ZmtiMilUYTp1wkiXWMFX6AUk-msE981-/view?usp=sharing)
-
-## <a name="more">🚀 More</a>
-**Advance your skills with Next.js Pro Course**
-
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning experience. They're packed with detailed explanations, cool features, and exercises to boost your skills. Give it a go!
-
-<a href="https://www.jsmastery.pro/ultimate-next-course" target="_blank">
-<img src="https://i.ibb.co/804sPK6/Image-720.png" alt="Project Banner">
-</a>
+This project was built as a production-style frontend application to demonstrate modern React and Next.js workflows, including component-based architecture, animation orchestration, and 3D UI integration.
+It reflects how interactive, performance-focused user interfaces are built in real-world SaaS products and digital platforms.
+Author
+Ali Hussein
+Frontend Web Developer
+Specialized in React, Next.js, and modern UI engineering
+GitHub: https://github.com/codex404556
+Portfolio: https://alihussein-dev.vercel.app/
+LinkedIn: https://linkedin.com/in/error-best-381303331
